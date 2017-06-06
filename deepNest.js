@@ -65,5 +65,5 @@ function deepNest() {
     //     }
     // } 
     
-    return `Dept is ${count}`;
+    return `Deepest depth is ${count}`;
 }
