@@ -1,0 +1,50 @@
+/*position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);*/
+body {
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ededed;
+}
+#wrapper {
+      width: 500px;
+      margin: 0 auto;
+      padding-top: 50px;
+}
+
+#person-or-Company {
+    text-align: center;
+}
+#company, 
+#person {
+    text-align: center;
+}
+
+.label--first {
+    padding-left: 15px;
+}
+
+#person--or--Company,
+#person-form,
+#company-form {
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+
+}
+.hide {
+    display: none;
+}
+#submit-person-company {
+    display: block;
+    margin: 0 auto;
+}
+.input-person {
+   margin-bottom: 15px;
+   width: 100%;
+}
+.show {
+    display: block;
+}

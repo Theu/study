@@ -1,0 +1,37 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="modalStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <form id="person--or--Company">
+                <div class="label--first">Person</div>
+                <input type="radio" name="personCompany" value="" id="person">
+                <div class="label--first">Company</div>
+                <input type="radio" name="personCompany" value="" id="company">
+                <input type="submit" value="Chose your type" id="submit-person-company">
+            </form>
+            <form id="person-form" class="hide">
+                <div class="label--second" id="firstName">First Name</div>
+                <input class="input-person" type="text" id="firstNameValue">
+                <div class="label--second" id="lastName">Last Name</div>
+                <input class="input-person" type="text" id="lastNameValue">
+                <div class="label--second" id="email">email</div>
+                <input class="input-person" type="text" id="emailValue">
+                <input type="submit" value="Submit" id="submit-person">
+            </form>
+            <form id="company-form" class="hide">
+                <div class="label--second" id="companyName">Company Name</div>
+                <input class="input-person" type="text" id="companyValue">
+                <div class="label--second" id="phone">phone</div>
+                <input class="input-person" type="text" id="phoneValue">
+                <input type="submit" value="Submit" id="submit-company">
+            </form>
+        </div>
+        <script src="modalFunc.js"></script>
+    </body>
+</html>
