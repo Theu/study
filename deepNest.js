@@ -26,7 +26,7 @@ function deepNest() {
                 count++;
                 testElemnt = parentNode[i].parentNode;
                 console.log('testElement', testElemnt);
-                
+
             } else if (testElement === parentTarget[i]) {
                 return;
             }
@@ -42,7 +42,7 @@ function deepNest() {
     //             count++;
     //             testElemnt = parentNode[i].parentNode;
     //             console.log('testElement', testElemnt);
-                
+
     //         } else if (testElement === parentTarget[i]) {
     //             return;
     //         }
@@ -58,12 +58,21 @@ function deepNest() {
     //             count++;
     //             testElemnt = parentNode[i].parentNode;
     //             console.log('testElement', testElemnt);
-                
+
     //         } else if (testElement === parentTarget[i]) {
     //             return;
     //         }
     //     }
-    // } 
-    
+    // }
+
     return `Deepest depth is ${count}`;
 }
+
+for (i = 0; i < 10; i++) {
+    setTimeout(() => console.log(i), i * 0);
+}
+
+
+// setTimeout() {
+
+// }
